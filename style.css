@@ -136,11 +136,11 @@ section {
     padding: 100px 0;
 }
 
-.about {
+.about, .services {
     font-family: 'Poppins', sans-serif;
 }
 
-.about .title {
+section .title {
     position: relative;
     text-align: center;
     font-size: 40px;
@@ -150,7 +150,7 @@ section {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.about .title::before {
+section .title::before {
     content: "";
     position: absolute;
     bottom: 0px;
@@ -161,8 +161,7 @@ section {
     transform: translateX(-50%);
 }
 
-.about .title::after {
-    content: "who i am";
+section .title::after {
     position: absolute;
     bottom: -12px;
     left: 50%;
@@ -173,6 +172,9 @@ section {
     transform: translateX(-50%);
 }
 
+.about .title::after {
+    content: "who i am";
+}
 .about .about-content {
     display: flex;
     flex-wrap: wrap;
@@ -218,7 +220,10 @@ section {
     background: none;
 }
 
+/* services section styling */
+.services {
 
+}
 
 
 /* responsive media query start */
