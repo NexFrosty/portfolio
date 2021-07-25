@@ -11,6 +11,76 @@ html{
     scroll-behavior: smooth;
 }
 
+.gitButton {
+	background-image: url('images/github-logo.png');
+    background-size: cover;
+	border-radius: 0%;
+	display: flex;
+	cursor: pointer;
+    width: 18vh;
+    height: 12vh;
+    margin-right: 10px;
+    margin-top: 100px;
+}
+
+.instaButton {
+	background-image: url('images/insta-logo.png');
+    background-size: cover;
+	border-radius: 0%;
+	display: flex;
+	cursor: pointer;
+    width: 18vh;
+    height: 12vh;
+    margin-right: 20px;
+    margin-top: 250px;
+}
+
+.linkedinButton {
+	background-image: url('images/linkedin-logo.png');
+    background-size: cover;
+	border-radius: 0%;
+	display: flex;
+	cursor: pointer;
+    width: 18vh;
+    height: 12vh;
+    margin-left: -10px;
+    margin-right: 30px;
+    margin-top: 100px;
+}
+
+.ytButton {
+	background-image: url('images/youtube-logo.png');
+    background-size: cover;
+	border-radius: 50%;
+	display: flex;
+	cursor: pointer;
+    width: 18vh;
+    height: 12vh;
+    margin-left: -20px;
+    margin-right: 100px;
+    margin-top: 250px;
+}
+
+.ytButton:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.gitButton:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.linkedinButton:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+.instaButton:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
 /* custom scroll bar */
 ::-webkit-scrollbar {
     width: 10px;
@@ -706,4 +776,15 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
+    .gitButton {
+	background-image: url('images/github-logo.png');
+    background-size: cover;
+	border-radius: 0%;
+	display: flex;
+	cursor: pointer;
+    width: 56vh;
+    height: 12vh;
+    margin-right: 10px;
+    margin-top: 15px;
+}
 }
