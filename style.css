@@ -20,7 +20,7 @@ html{
     width: 16vh;
     height: 16vh;
     margin-right: 20px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .instaButton {
@@ -196,10 +196,6 @@ section .title::after{
     color: #fff;
 }
 
-li {
-    color: black;
-}
-
 /* menu btn styling */
 .menu-btn{
     color: #fff;
@@ -255,6 +251,7 @@ li {
   margin-right: 0;
 }
 .home .home-content .text-1{
+    margin-top: 40px;
     font-size: 27px;
 }
 .home .home-content .text-2{
@@ -749,11 +746,10 @@ footer span a:hover{
     .services .serv-content .card{
         width: 100%;
     }
-    li {
-        margin-top: -20px;
-        margin-right: 80px;
-        height: 30px;
-        width: 30px;
+    ol {
+        margin-right: 100px;
+        height: 10px;
+        width: 10px;
     }
 }
 
@@ -786,10 +782,9 @@ footer span a:hover{
         font-size: 23px;
         line-height: 38px;
     }
-    li {
-        margin-top: -20px;
-        margin-right: 80px;
-        height: 30px;
-        width: 30px;
+    ol {
+        margin-right: 100px;
+        height: 5px;
+        width: 5px;
     }
 }
